@@ -1,0 +1,28 @@
+# ---------- Python ----------
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---------- 环境与密钥 ----------
+.env
+.env.*
+config.local.py
+
+# Streamlit 本地密钥（模板 .streamlit/secrets.example.toml 保留）
+.streamlit/secrets.toml
+
+# ---------- 向量索引（位于项目外，不应入库） ----------
+F:/faiss_index_data/
+
+# ---------- 评测结果（本地产物，不入库） ----------
+data/eval_results.json
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
